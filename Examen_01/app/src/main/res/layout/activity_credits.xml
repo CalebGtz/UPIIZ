@@ -1,0 +1,55 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@android:drawable/sym_def_app_icon"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:text="Créditos"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/tvAutor"
+            android:text="Autor: Hiram Caleb Gutierrez Olague"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/tvGrupo"
+            android:text="Grupo: 7CM1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tvTabla"
+            android:text="Tabla asignada: Restaurantes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnRegresar"
+            android:text="Regresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

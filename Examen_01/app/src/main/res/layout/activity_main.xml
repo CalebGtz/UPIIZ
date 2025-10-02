@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="24dp"
+    android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/btnAgregar" android:text="Agregar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnBuscar" android:text="Buscar / Actualizar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+    <Button android:id="@+id/btnEliminar" android:text="Eliminar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+    <Button android:id="@+id/btnCreditos" android:text="Créditos" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+    <Button android:id="@+id/btnSalir" android:text="Salir" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+</LinearLayout>
