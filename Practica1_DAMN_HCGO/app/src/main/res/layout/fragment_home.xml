@@ -1,0 +1,291 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 1.1 Galería -->
+        <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+            android:id="@+id/carousel"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            app:showTopShadow="false"
+            app:showBottomShadow="true"
+            app:carouselType="BLOCK"
+            app:scaleOnScroll="true" />
+
+        <!-- 1.2 Acceso Rápido -->
+        <TextView
+            android:text="@string/acceso"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <GridLayout
+            android:useDefaultMargins="true"
+            android:alignmentMode="alignMargins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_marginTop="8dp">
+
+            <!-- 🟣 Calendario -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardUseCompatPadding="true"
+                android:layout_margin="8dp"
+                android:layout_columnWeight="1"
+                app:strokeColor="@color/ipnPrimary">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/ic_calendar"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginBottom="8dp"
+                        app:tint="@color/ipnPrimary" />
+
+                    <TextView
+                        android:text="@string/calendario"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@color/ipnPrimary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="@string/escolar_2025"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- 🟣 Donar -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardUseCompatPadding="true"
+                android:layout_margin="8dp"
+                android:layout_columnWeight="1"
+                app:strokeColor="@color/ipnPrimary">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/ic_donate"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginBottom="8dp"
+                        app:tint="@color/ipnPrimary" />
+
+                    <TextView
+                        android:text="@string/donar"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@color/ipnPrimary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="@string/apoya_al_ipn"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- 🟣 Once TV -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardUseCompatPadding="true"
+                android:layout_margin="8dp"
+                android:layout_columnWeight="1"
+                app:strokeColor="@color/ipnPrimary">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/ic_channel_foreground"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginBottom="8dp"
+                        app:tint="@color/ipnPrimary" />
+
+                    <TextView
+                        android:text="@string/once_tv"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@color/ipnPrimary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="@string/en_vivo"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- 🟣 Emergencias -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardUseCompatPadding="true"
+                android:layout_margin="8dp"
+                android:layout_columnWeight="1"
+                app:strokeColor="@color/ipnPrimary">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/ic_sos"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginBottom="8dp"
+                        app:tint="@color/ipnPrimary" />
+
+                    <TextView
+                        android:text="@string/emergencias"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@color/ipnPrimary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="@string/n_apoyo"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </GridLayout>
+
+        <!-- 1.3 Medios -->
+        <TextView
+            android:text="@string/medios"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:cardUseCompatPadding="true"
+            app:strokeColor="@color/ipnPrimary">
+            <LinearLayout
+                android:padding="12dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:text="@string/radio_ipn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView android:text="@string/canal_once"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView android:text="@string/gaceta_polit_cnica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 1.4 Cultura -->
+        <TextView
+            android:text="@string/cultura"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:cardUseCompatPadding="true"
+            app:strokeColor="@color/ipnPrimary">
+            <LinearLayout
+                android:padding="12dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:text="@string/eventos_culturales"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView android:text="@string/cartelera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 1.5 Servicios -->
+        <TextView
+            android:text="@string/servicios"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:cardUseCompatPadding="true"
+            app:strokeColor="@color/ipnPrimary">
+            <LinearLayout
+                android:padding="12dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:text="@string/calendario_escolar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView android:text="@string/sendero_seguro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView android:text="@string/beneficios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</ScrollView>

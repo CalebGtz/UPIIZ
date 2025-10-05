@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Practica1_DAMN_HCGO</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ipn">IPN</string>
+    <string name="poli">Instituto Politécnico Nacional</string>
+    <string name="acceso">Acceso Rápido</string>
+    <string name="calendario">Calendario</string>
+    <string name="escolar_2025">Escolar 2025</string>
+    <string name="donar">Donar</string>
+    <string name="apoya_al_ipn">Apoya al IPN</string>
+    <string name="once_tv">Once TV</string>
+    <string name="en_vivo">En Vivo</string>
+    <string name="emergencias">Emergencias</string>
+    <string name="n_apoyo">Números de apoyo</string>
+    <string name="medios">Medios</string>
+    <string name="radio_ipn">Radio IPN</string>
+    <string name="canal_once">Canal Once</string>
+    <string name="gaceta_polit_cnica">Gaceta Politécnica</string>
+    <string name="cultura">Cultura</string>
+    <string name="eventos_culturales">Eventos culturales</string>
+    <string name="cartelera">Cartelera</string>
+    <string name="servicios">Servicios</string>
+    <string name="calendario_escolar">Calendario escolar</string>
+    <string name="sendero_seguro">Sendero Seguro</string>
+    <string name="beneficios">Beneficios</string>
+</resources>
