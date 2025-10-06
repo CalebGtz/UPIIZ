@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EJE_HCGO_07</string>
+    <string name="ingresa_tu_nombre">Ingresa tu nombre</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="nombre">Nombre</string>
+    <string name="regresar">Regresar</string>
+    <string name="continuar">Continuar</string>
+</resources>
