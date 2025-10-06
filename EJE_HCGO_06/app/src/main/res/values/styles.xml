@@ -1,0 +1,18 @@
+<resources>
+    <style name="CalcButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#6A5ACD</item>
+    </style>
+
+    <style name="CalcOp" parent="CalcButton">
+        <item name="android:background">#7E57C2</item>
+    </style>
+
+    <style name="CalcAux" parent="CalcButton">
+        <item name="android:background">#607D8B</item>
+    </style>
+</resources>
