@@ -8,16 +8,15 @@
 
     <TextView
         android:id="@+id/tvNombre3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:text="Usuario"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:text="@string/nombre"
-        android:layout_marginBottom="32dp" />
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/btnVolverSegunda"
+        android:id="@+id/btnRegresar3"
+        android:text="Regresar"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/regresar" />
+        android:layout_height="wrap_content" />
 </LinearLayout>

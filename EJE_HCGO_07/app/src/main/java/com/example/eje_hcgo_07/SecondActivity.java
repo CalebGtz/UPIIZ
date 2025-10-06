@@ -8,27 +8,27 @@ import android.widget.TextView;
 
 public class SecondActivity extends AppCompatActivity {
 
-    private String nombre;
+    TextView tvNombre;
+    Button btnRegresar, btnContinuar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        TextView tvNombre = findViewById(R.id.tvNombre);
-        Button btnVolverMain = findViewById(R.id.btnVolverMain);
-        Button btnIrTercera = findViewById(R.id.btnIrTercera);
+        tvNombre = findViewById(R.id.tvNombre);
+        btnRegresar = findViewById(R.id.btnRegresar);
+        btnContinuar = findViewById(R.id.btnContinuar);
 
-        nombre = getIntent().getStringExtra(MainActivity.EXTRA_NOMBRE);
-        if (nombre == null) nombre = "";
-        tvNombre.setText(nombre);
+        String usuario = getIntent().getStringExtra("usuario");
+        tvNombre.setText(usuario);
 
-        btnVolverMain.setOnClickListener(v -> finish());  // vuelve a Main
+        btnRegresar.setOnClickListener(v -> finish());
 
-        btnIrTercera.setOnClickListener(v -> {
-            Intent i = new Intent(this, ThirdActivity.class);
-            i.putExtra(MainActivity.EXTRA_NOMBRE, nombre);
-            startActivity(i);
+        btnContinuar.setOnClickListener(v -> {
+            Intent intent = new Intent(SecondActivity.this, ThirdActivity.class);
+            intent.putExtra("usuario", usuario);
+            startActivity(intent);
         });
     }
 }

@@ -1,34 +1,43 @@
 package com.example.eje_hcgo_07;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
+
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String EXTRA_NOMBRE = "EXTRA_NOMBRE";
+    EditText etUsuario, etClave;
+    Button btnIngresar, btnSalir;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        EditText etNombre = findViewById(R.id.etNombre);
-        Button btnIr = findViewById(R.id.btnIrSegunda);
+        etUsuario = findViewById(R.id.etUsuario);
+        etClave = findViewById(R.id.etClave);
+        btnIngresar = findViewById(R.id.btnIngresar);
+        btnSalir = findViewById(R.id.btnSalir);
 
-        btnIr.setOnClickListener(v -> {
-            String nombre = etNombre.getText().toString().trim();
-            if (nombre.isEmpty()) {
-                Toast.makeText(this, "Ingresa tu nombre", Toast.LENGTH_SHORT).show();
-                return;
+        btnIngresar.setOnClickListener(v -> {
+            String usuario = etUsuario.getText().toString().trim();
+            String clave = etClave.getText().toString().trim();
+
+            if (usuario.isEmpty() || clave.isEmpty()) {
+                Toast.makeText(this, "Por favor ingrese usuario y clave", Toast.LENGTH_SHORT).show();
+            } else if (usuario.equals("Caleb") && clave.equals("1234")) {
+                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                intent.putExtra("usuario", usuario);
+                startActivity(intent);
+            } else {
+                Toast.makeText(this, "Credenciales incorrectas", Toast.LENGTH_SHORT).show();
             }
-            Intent i = new Intent(this, SecondActivity.class);
-            i.putExtra(EXTRA_NOMBRE, nombre);
-            startActivity(i);
         });
+
+        btnSalir.setOnClickListener(v -> finish());
     }
 }
