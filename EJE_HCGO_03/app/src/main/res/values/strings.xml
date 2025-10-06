@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EJE_HCGO_03</string>
+    <string name="metros">Metros:</string>
+    <string name="cantidad_metros">Ingrese la cantidad de metros</string>
+    <string name="pies">Pies:</string>
+    <string name="cantidad_pies">Ingrese la cantidad de pies</string>
+    <string name="txtpies">Pies</string>
+    <string name="txtmetros">Metros</string>
+</resources>

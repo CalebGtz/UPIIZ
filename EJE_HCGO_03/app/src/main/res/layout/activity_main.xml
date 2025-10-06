@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/metros"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etMetros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cantidad_metros"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@android:drawable/edit_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pies"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:id="@+id/etPies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cantidad_pies"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@android:drawable/edit_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="32dp">
+
+        <Button
+            android:id="@+id/btnConvertirPies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtpies"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/btnConvertirMetros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtmetros" />
+    </LinearLayout>
+
+</LinearLayout>
