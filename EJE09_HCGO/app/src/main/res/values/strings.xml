@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EJE09_HCGO</string>
+    <string name="salir">Salir</string>
+    <string name="recycleview_con_adaptador">RecycleView con adaptador</string>
+    <string name="recycleview_basico">RecycleView basico</string>
+    <string name="listview_basico">ListView Basico</string>
+    <string name="listview_con_adaptador">ListView con adaptador</string>
+    <string name="regresar">Regresar</string>
+    <string name="agregar">Agregar</string>
+</resources>
