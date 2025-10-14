@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EJE09_HCGO</string>
+    <string name="app_name">EJE_DJA_09</string>
     <string name="salir">Salir</string>
     <string name="recycleview_con_adaptador">RecycleView con adaptador</string>
     <string name="recycleview_basico">RecycleView basico</string>
@@ -7,8 +7,11 @@
     <string name="listview_con_adaptador">ListView con adaptador</string>
     <string name="regresar">Regresar</string>
     <string name="agregar">Agregar</string>
-    <string name="pSuper">Primer super</string>
+    <string name="nombre">Nombre</string>
     <string name="poder">Poder</string>
-    <string name="edad">Edad</string>
-    <string name="lista_heroes">Lista de heroes</string>
+    <string name="anio">1900</string>
+    <string name="agregar_heroe">Agregar Heroe</string>
+    <string name="ingresar_nombre">Ingresar Nombre</string>
+    <string name="ingrese_poder">Ingrese el poder del heroe</string>
+    <string name="ingrese_anio">Ingrese año de creaciòn</string>
 </resources>
