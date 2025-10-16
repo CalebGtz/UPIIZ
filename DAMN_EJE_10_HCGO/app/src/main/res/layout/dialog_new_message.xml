@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Spinner
+        android:id="@+id/spSender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/quien_envia"/>
+
+    <EditText
+        android:id="@+id/etMessageInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/escribe_tu_mensaje"
+        android:inputType="textMultiLine"
+        android:minLines="2"
+        android:maxLines="6"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sender_options">
+        <item>@string/sender_me</item>
+        <item>@string/sender_other</item>
+    </string-array>
+</resources>

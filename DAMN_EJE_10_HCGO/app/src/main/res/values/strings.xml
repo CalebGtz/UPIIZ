@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DAMN_Eje 10_HCGO</string>
+    <string name="nuevo_mensaje">Nuevo mensaje</string>
+    <string name="escribe_tu_mensaje">Escribe tu mensaje...</string>
+    <string name="sender_me">Yo</string>
+    <string name="sender_other">Otro</string>
+    <string name="dialog_title">Nuevo mensaje</string>
+    <string name="action_send">Enviar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="error_empty">Escribe algún texto</string>
+    <string name="quien_envia">Quien envia</string>
+</resources>
