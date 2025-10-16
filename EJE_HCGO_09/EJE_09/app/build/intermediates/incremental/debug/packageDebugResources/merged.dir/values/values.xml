@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="agregar">Agregar</string>
+    <string name="agregar_heroe">Agregar Heroe</string>
+    <string name="anio">1900</string>
+    <string name="app_name">EJE_DJA_09</string>
+    <string name="ingresar_nombre">Ingresar Nombre</string>
+    <string name="ingrese_anio">Ingrese año de creaciòn</string>
+    <string name="ingrese_poder">Ingrese el poder del heroe</string>
+    <string name="listview_basico">ListView Basico</string>
+    <string name="listview_con_adaptador">ListView con adaptador</string>
+    <string name="nombre">Nombre</string>
+    <string name="poder">Poder</string>
+    <string name="recycleview_basico">RecycleView basico</string>
+    <string name="recycleview_con_adaptador">RecycleView con adaptador</string>
+    <string name="regresar">Regresar</string>
+    <string name="salir">Salir</string>
+    <style name="Base.Theme.EJE_DJA_09" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.EJE_DJA_09" parent="Base.Theme.EJE_DJA_09"/>
+</resources>

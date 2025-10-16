@@ -1,0 +1,2 @@
+com.upiiz.eje_dja_09.test:style/WhiteBackgroundTheme = 0x7f010001
+com.upiiz.eje_dja_09.test:style/WhiteBackgroundDialogTheme = 0x7f010000

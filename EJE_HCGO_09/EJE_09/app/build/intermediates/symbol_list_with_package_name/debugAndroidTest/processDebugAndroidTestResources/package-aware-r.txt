@@ -1,0 +1,3 @@
+com.upiiz.eje_dja_09.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

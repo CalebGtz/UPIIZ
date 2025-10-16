@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/xml_data_extraction_rules.xml.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/layout_activity_basic_recycle_view.xml.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/layout/activity_basic_recycle_view.xml"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/layout_activity_custom_recycle_view.xml.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/layout/activity_custom_recycle_view.xml"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/layout_custom_list_item.xml.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/layout/custom_list_item.xml"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/layout_diag_custom_add_heroes.xml.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/layout/diag_custom_add_heroes.xml"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/xml_backup_rules.xml.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/drawable_drstrange.jpg.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/drawable/drstrange.jpg"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/drawable_ironman.webp.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/drawable/ironman.webp"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/drawable_professorx.jpg.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/drawable/professorx.jpg"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/drawable_cptamerica.jpg.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/drawable/cptamerica.jpg"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/drawable_kittyprode.jpg.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/drawable/kittyprode.jpg"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/layout_activity_basic_list_view.xml.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/layout/activity_basic_list_view.xml"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/layout_activity_custom_list_view.xml.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/layout/activity_custom_list_view.xml"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/drawable_blackwidow.jpg.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/drawable/blackwidow.jpg"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/drawable_storm.jpg.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/drawable/storm.jpg"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/layout_activity_main.xml.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/drawable_scarletwitch.jpg.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/drawable/scarletwitch.jpg"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/drawable_spooderman.png.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/drawable/spooderman.png"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/drawable_user.jpg.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/drawable/user.jpg"
+    },
+    {
+        "merged": "com.upiiz.eje_dja_09.app-debug-35:/drawable_drdoom.jpg.flat",
+        "source": "com.upiiz.eje_dja_09.app-main-37:/drawable/drdoom.jpg"
+    }
+]
