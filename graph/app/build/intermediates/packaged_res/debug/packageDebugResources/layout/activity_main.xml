@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical" android:padding="12dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <!-- Lienzo -->
+        <com.example.graph.GraphView
+            android:id="@+id/graphView"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:background="#FFFFFFFF" />
+
+        <!-- Tipo de función -->
+        <RadioGroup
+            android:id="@+id/rgType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+            <RadioButton
+                android:id="@+id/rbLinear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Lineal (y=mx+b)"/>
+            <RadioButton
+                android:id="@+id/rbQuadratic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cuadrática (y=ax²+bx+c)"
+                android:layout_marginStart="16dp"/>
+        </RadioGroup>
+
+        <!-- Coefs lineal -->
+        <LinearLayout
+            android:id="@+id/boxLinear"
+            android:orientation="horizontal"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="m:" android:layout_gravity="center_vertical"/>
+            <EditText
+                android:id="@+id/etM"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:inputType="numberDecimal"
+                android:hint="2"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="  b:" android:layout_gravity="center_vertical"/>
+            <EditText
+                android:id="@+id/etBLinear"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:inputType="numberDecimal"
+                android:hint="1"/>
+        </LinearLayout>
+
+        <!-- Coefs cuadrática -->
+        <LinearLayout
+            android:id="@+id/boxQuadratic"
+            android:orientation="horizontal"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" android:visibility="gone">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="a:" android:layout_gravity="center_vertical"/>
+            <EditText
+                android:id="@+id/etA"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:inputType="numberDecimal"
+                android:hint="1"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="  b:" android:layout_gravity="center_vertical"/>
+            <EditText
+                android:id="@+id/etBQuad"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:inputType="numberDecimal"
+                android:hint="0"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="  c:" android:layout_gravity="center_vertical"/>
+            <EditText
+                android:id="@+id/etC"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:inputType="numberDecimal"
+                android:hint="0"/>
+        </LinearLayout>
+
+        <!-- Rango X -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="xMin:" android:layout_gravity="center_vertical"/>
+            <EditText
+                android:id="@+id/etXMin"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:inputType="numberDecimal"
+                android:hint="-5"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="  xMax:" android:layout_gravity="center_vertical"/>
+            <EditText
+                android:id="@+id/etXMax"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:inputType="numberDecimal"
+                android:hint="5"/>
+            <Button
+                android:id="@+id/btnPlot"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Graficar" android:layout_marginStart="12dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

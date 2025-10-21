@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id boxLinear
+id boxQuadratic
+id btnPlot
+id etA
+id etBLinear
+id etBQuad
+id etC
+id etM
+id etXMax
+id etXMin
+id graphView
+id rbLinear
+id rbQuadratic
+id rgType
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Graph
+style Theme.Graph
+xml backup_rules
+xml data_extraction_rules
