@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_names">
+        <item>Negro</item>
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Morado</item>
+    </string-array>
+    <string-array name="color_hex">
+        <item>#000000</item>
+        <item>#F44336</item>
+        <item>#4CAF50</item>
+        <item>#2196F3</item>
+        <item>#9C27B0</item>
+    </string-array>
+</resources>
